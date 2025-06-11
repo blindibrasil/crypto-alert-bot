@@ -34,7 +34,7 @@ function waitUntilNextQuarterHour() {
 }
 
 async function fetchPublicKlines(symbol: string, interval: string, limit = 100): Promise<Candle[]> {
-  const url = `https://api.binance.com/api/v3/klines?symbol=${symbol}&interval=${interval}&limit=${limit}`;
+  const url = `https://api.binance.us/api/v3/klines?symbol=${symbol}&interval=${interval}&limit=${limit}`;
   const response = await axios.get(url);
   return response.data.map((candle: any) => ({
     openTime: candle[0],
