@@ -1,11 +1,12 @@
 {
   "name": "bot-arbitragem",
-  "type": "module",
   "version": "1.0.0",
   "description": "Bot de arbitragem entre KuCoin Spot e Binance Futures",
-  "main": "index.js",
+  "main": "dist/index.js", 
+  "type": "module",
   "scripts": {
     "start": "node dist/index.js",
+    "build": "tsc",
     "dev": "tsx watch src/index.ts"
   },
   "keywords": [
