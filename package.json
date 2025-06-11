@@ -1,0 +1,33 @@
+{
+  "name": "bot-arbitragem",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Bot de arbitragem entre KuCoin Spot e Binance Futures",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [
+    "arbitragem",
+    "crypto",
+    "bot",
+    "typescript"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "ccxt": "^4.4.88",
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.3",
+    "technicalindicators": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.4.5"
+  }
+}

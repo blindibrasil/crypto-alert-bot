@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+      "target": "es2022",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "strict": true,
+		  "strictPropertyInitialization": false,
+      "esModuleInterop": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "forceConsistentCasingInFileNames": true,
+      "allowJs": true,
+      "removeComments": true,
+      "noImplicitAny": true,
+      "rootDir": "./src",
+      "outDir": "./build",
+      "composite": true,
+      "baseUrl": "./src",
+      "paths": {
+        "@modules/*": [
+          "modules/*"
+        ],
+        "@config/*": [
+          "config/*"
+        ],
+        "@shared/*": [
+          "shared/*"
+        ],
+        "@utils/*": [
+          "utils/*"
+        ],
+
+
+  }
+  },
+  "exclude": [
+    "node_modules",
+    "./jest.config.js",
+    "./prettier.config.js",
+    "tests"
+  ]
+}
