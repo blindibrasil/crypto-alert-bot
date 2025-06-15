@@ -21,6 +21,7 @@
     "axios": "^1.6.8",
     "ccxt": "^4.4.88",
     "chalk": "^5.3.0",
+    "express": "^5.1.0",
     "cli-table3": "^0.6.3",
     "technicalindicators": "^3.1.0"
   },
